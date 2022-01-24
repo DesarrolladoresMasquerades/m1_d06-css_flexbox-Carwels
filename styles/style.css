@@ -1,1 +1,24 @@
+div {
+    height: 150px;
+    width: 150px;
+}
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    
+}
+.div-1,
+.div-2,
+.div-3,
+.div-4,
+.div-5,
+.div-6 {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
